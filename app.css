@@ -1,0 +1,58 @@
+body {
+    background-color:lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    display:flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 25px;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 50%;
+    /* left: 25%; */
+    margin: 0 auto;
+   
+    transform: translateY(50%);
+    align-items: center;
+    background-color: white;
+    width: 20em;
+    height: 25em;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    
+}
+input{
+    margin-bottom: 45px;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    color: white;
+    background-color: blue;
+    width: 70%;
+    padding: 10px;
+    
+}
+#sign-in{
+    margin: 0 auto;
+    font-style: italic;
+}
